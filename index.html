@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>App</title>
 </head>
 <body>
 
@@ -13,15 +13,54 @@
         <li>Item 3</li>
     </ul> -->
 
-    <div id="parent">
+    <!-- <div id="parent">
         <div id="child">
             click me!
         </div>
+
+    </div> -->
+
+    <!-- Event delegation -->
+    <!-- <div>
+        <span>
+            <button>Click Me</button>
+        </span>
+    </div> -->
+    <div id="myList">
+        
+            <button>Click Me1</button>
+            <button>Click Me2</button>
+            <button>Click Me3</button>
+        
     </div>
+
+    <!-- foreach method call -->
+    <div>
+        
+            <button>Click 1</button>
+            <button>Click 2</button>
+            <button>Click 3</button>
+        
+    </div>
+    <div>
+        <ul id="list">
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>Mongodb</li>
+        </ul>
+
+        <div>
+            <button onclick="addElement()">
+                New Element Added
+            </button>
+        </div>
+    </div>
+
+
     <!-- <a href="#" id="myLink">Click Me!</a> -->
     <!-- <script src="eventDelegation.js"></script> -->
-    <script >
-        document.getElementById("child").addEventListener("click",
+    <!-- <script >
+    document.getElementById("child").addEventListener("click",
     function () {
         console.log("Child clicked")
     }
@@ -32,7 +71,7 @@ document.getElementById("parent").addEventListener("click",
     }
 )
 
-    </script>
-    <!-- <script src="preventDefault.js"></script> -->
+    </script> -->
+    <script src="this.js"></script>
 </body>
 </html>
