@@ -8,4 +8,6 @@ const greetName = (name) =>
  {
     console.log("Hello,"+name)
 }
-greetName("MD Shahin Mahmud");
+
+
+// greetName("MD Shahin Mahmud");
