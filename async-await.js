@@ -12,6 +12,8 @@
 // fetchData();
 
 
+// sumit saha
+
 // Interview Tricky Question : Understanding Closure, Async-Await, and Scope
 function delay(i) {
     return new Promise ((resolve)=>{

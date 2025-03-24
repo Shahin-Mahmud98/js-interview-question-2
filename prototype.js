@@ -1,14 +1,14 @@
-// function Person(name,age){
-//     this.name = name;
-//     this.age = age;
+function Person(name,age){
+    this.name = name;
+    this.age = age;
 
-// }
-// Person.prototype.greet = function () {
-//     console.log("Hello,"+ this.name);
-// };
-// Person.prototype.greet = function () {
-//     console.log("Age :"+ this.age);
-// };
+}
+Person.prototype.greet = function () {
+    console.log("Hello,"+ this.name);
+};
+Person.prototype.greet = function () {
+    console.log("Age :"+ this.age);
+};
 
 // const person = new Person("Md Shahin Mahmud",27);
 // person.greet();

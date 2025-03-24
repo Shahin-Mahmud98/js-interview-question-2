@@ -59,6 +59,8 @@ list.addEventListener('click', (e)=>{
     }
 })
 
+// for element adding
+
 function addElement() {
     const newElement = document.createElement("li");
     newElement.textContent = "dot net";

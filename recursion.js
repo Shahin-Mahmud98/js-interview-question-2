@@ -6,6 +6,8 @@ function factorial(n) {
     }
 }
 
+console.log(factorial(5))
+
 // recursion and declaration same as
 
 
@@ -19,4 +21,4 @@ function sum(n) {
     }
 }
 
-console.log(sum(10))
+console.log(sum(7))

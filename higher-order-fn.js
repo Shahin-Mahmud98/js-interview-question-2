@@ -13,13 +13,13 @@
 
 //<-- example 1 with higher-order function -->
 
-// var numbers = [1,2,3,4];
+var numbers = [1,2,3,4];
 
-// var result = numbers.map(function(number){
-//     return number * 2;
-// })
+var result = numbers.map(function(number){
+    return number * 2;
+})
 
-// console.log(result);
+console.log(result);
 
 //<-- example 1 with higher-order function shortage way by arrow function -->
 
@@ -74,18 +74,18 @@
 
 // Best Practice
 
- const language = ["JavaScript","Java", "pyhton"];
+//  const language = ["JavaScript","Java", "pyhton"];
 
- function mapShahin(arr,fn) {
-    const newArray = [];
-    for (let i = 0; i < arr.length; i++) {
-        newArray.push(fn(arr[i]));
+//  function mapShahin(arr,fn) {
+//     const newArray = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         newArray.push(fn(arr[i]));
         
-    }
-    return newArray;
- }
+//     }
+//     return newArray;
+//  }
 
- const myArray = mapShahin(language,function(language){
-    return language.length;
- })
- console.log(myArray)
+//  const myArray = mapShahin(language,function(language){
+//     return language.length;
+//  })
+//  console.log(myArray)

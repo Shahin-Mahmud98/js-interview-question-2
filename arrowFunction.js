@@ -4,10 +4,10 @@ const multiply = (x,y) => x*y;
 }
 
 
-const greetName = (name) => 
+const PersonName = (name) => 
  {
     console.log("Hello,"+name)
 }
 
 
-// greetName("MD Shahin Mahmud");
+PersonName("MD Shahin Mahmud");
